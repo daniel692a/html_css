@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Autocomplete y require">
+    <meta name="robots" content="index,follow">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <form action="">
+            <label for="name">
+                <span>Nombre completo</span>
+                <input type="text" name="name" id="name" placeholder="Nombre completo" autocomplete="name" required>
+            </label>
+            <label for="email">
+                <span>Correo</span>
+                <input type="email" name="email" id="email" placeholder="example@domain.com" autocomplete="email" required>
+            </label>
+            <label for="country">
+                <span>País</span>
+                <input type="text" name="country" id="country" autocomplete="country" required>
+            </label>
+            <label for="CP">
+                <span>Código Postal</span>
+                <input type="number" name="CP" id="CP" autocomplete="postal-code" required>
+            </label>
+            <input type="submit">
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
