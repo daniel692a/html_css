@@ -1,0 +1,17 @@
+/* Siempre debes usarlo */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* ->Hace que se calcule el tamaño del elemento y se ajuste a la pantalla */
+}
+main {
+  width: 100%;
+  height: 500px;
+  border-width: 10px;
+  border-color: gray;
+  border-style: solid;
+  padding: 20px 35px;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
