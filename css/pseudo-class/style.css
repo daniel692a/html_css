@@ -1,0 +1,46 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0px;
+  background-color: #000000;
+  height: 10vh;
+}
+/* Selector */
+.main-nav__item {
+  /* declaración -> propiedad : valor */
+  display: inline-block;
+}
+.main-nav__item a {
+  color: #fff;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+}
+
+/* Pesudo-clases */
+.main-nav__item a:active {
+  color: gray;
+}
+
+/* Pesudo-elementos */
+.main-nav__item a::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background-color: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  border-radius: 10px;
+}
+.main-nav__item a:hover::after {
+  width: 100%;
+  left: 0;
+}
