@@ -1,0 +1,6 @@
+div > p {
+  color: rgb(255, 180, 17);
+}
+div > article > p {
+  font-family: monospace;
+}

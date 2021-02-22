@@ -1,0 +1,9 @@
+/* General Sibling */
+/* Lo que hace es aplicar a todas las etiquetas que marqué el estilo si tienen a la misma línea el hermano */
+h2 ~ p {
+  color: red;
+}
+p ~ h2 {
+  font-family: monospace;
+  font-size: 3em;
+}

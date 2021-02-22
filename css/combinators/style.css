@@ -1,0 +1,8 @@
+/* Adjacent Siblings => Hermano Cercano */
+/* Toda etiqueta de párrafo que este cerca a un h2 aplica el color red */
+h2 + p {
+  color: red;
+}
+p + h2 {
+  font-family: monospace;
+}
