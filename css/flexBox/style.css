@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: monospace;
+  color: #fff;
+}
+.container {
+  border: 0.3rem solid #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Cuando el tamaño cambie, dará saltos de línea que permitan que no se junte todo el contenido en una sola línea */
+  justify-content: space-evenly; /* Alinear de forma horizontal, por default viene flex-start */
+  /* space-around da un espacio entre los elementos, pero para tener el mismo en todos los elementos uso space-evenly*/
+}
+.box {
+  width: 10rem;
+  height: 10rem;
+}
+.box-1 {
+  background-color: rgb(124, 155, 85);
+}
+.box-2 {
+  background-color: rgb(27, 110, 158);
+}
+.box-3 {
+  background-color: rgb(148, 82, 39);
+}
+.box-4 {
+  background-color: rgb(92, 65, 65);
+}
+.box-5 {
+  background-color: rgb(13, 61, 94);
+}
+.box-6 {
+  background-color: rgb(19, 102, 84);
+}
