@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-layout {
+  height: 12vh;
+  display: flex;
+}
+.header-layout img {
+  margin-left: 3vw;
+  width: 70px;
+  height: 100%;
+}
+.header-layout ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  height: 12vh;
+}
+.header-layout .header-layout__nav li {
+  padding: 0px 20px;
+}
+.header-layout .header-layout__nav li a {
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  position: relative;
+  font-size: 2rem;
+}
+.main-nav__item a::after {
+  background: none repeat scroll 0 0 #000;
+  bottom: -3px;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.main-nav__item a:hover::after {
+  width: 100%;
+  left: 0;
+}
+.sidebar {
+  width: 15vw;
+  height: 75vh;
+  background: linear-gradient(to bottom, #ff6f00, #ffa800);
+  position: absolute;
+}
+.sidebar section {
+  margin: auto;
+  margin-top: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.sidebar .sidebar-item {
+  width: 90%;
+  height: 10vh;
+}
+.sidebar .sidebar-item h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.main-content {
+  position: relative;
+  left: 15vw;
+  width: 75vw;
+}
+.main-content h1 {
+  text-align: center;
+  margin-top: 7vh;
+  font-size: 3rem;
+}
+.footer-content {
+  position: absolute;
+  background: linear-gradient(to bottom, #ffa800, #ff6f00);
+  height: 13vh;
+  width: 100vw;
+  bottom: 0;
+}
+.footer-content h2 {
+  text-align: center;
+  margin-top: 3vh;
+  font-size: 1.9rem;
+}

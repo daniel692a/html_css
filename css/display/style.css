@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.block-element {
+  background-color: orange;
+  margin: 10px;
+  padding: 20px;
+  font-size: 1.7rem;
+}
+/* Por defecto tienen display block, que este abarca todo el ancho sin importar si el contenido no llega hasta ahí */
+.nav {
+  background-color: peachpuff;
+  padding: 20px;
+  list-style: none;
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+/* En inline-block puedo dar padding, margin, width and height, en inline eso no se puede*/
