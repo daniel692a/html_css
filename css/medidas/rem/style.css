@@ -1,0 +1,20 @@
+/* REM siempre toma el tamaño de la ruta dado por defecto, osea html, en cuanto a font-size siempre será 16px */
+/* Inicio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  /* es un pequeño truco para no pensar tanto en calculos*/
+} /* Fin -> Esto siempre debe ir en el CSS */
+p {
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 4rem;
+}
+main div p {
+  font-size: 8rem;
+}
