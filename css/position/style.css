@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.parent {
+  border: 2px black dotted;
+  display: inline-block;
+}
+.box {
+  display: inline-block;
+  font-size: 3rem;
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+}
+#two {
+  background-color: rgb(143, 113, 57);
+  position: relative;
+  top: 15px;
+}
+/* top, bottom, left, right se pueden utilizar cuando cambiamos a propiedadd relative o absolute, por defecto viene en static*/
