@@ -7,6 +7,9 @@ html {
   font-size: 62.5%;
   font-family: "Fira Code", monospace;
 }
+body {
+  background-color: #121212;
+}
 .header {
   height: 20vh;
   display: flex;
@@ -31,6 +34,7 @@ html {
 }
 .header .header-nav .nav-li {
   font-size: 1.8rem;
+  color: #efefef;
 }
 .main-content {
   display: flex;
@@ -71,4 +75,11 @@ html {
 .footer {
   position: fixed;
   bottom: 0;
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #efefef;
 }
