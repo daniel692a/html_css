@@ -1,0 +1,15 @@
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  width: 40%;
+}
+.box-5 {
+  width: 87%;
+}
+.box-2 {
+  order: 1;
+}
+.box-3 {
+  order: 2;
+}
